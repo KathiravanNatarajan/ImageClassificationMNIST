@@ -22,6 +22,8 @@ biases = {
           'hiddenlayer':tf.Variable(tf.random_normal([n_hidden]))
           'output':tf.Variable(tf.random_normal([n_classes]))
           }
+
+# CNN is to be pasted from local file
 x = tf.placeholder("float",[None, 28,28,1])
 y = tf.placeholder("float",[None, n_classes])
 
